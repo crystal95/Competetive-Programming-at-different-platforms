@@ -1,0 +1,40 @@
+algorithm 
+* use pairs
+* use sort functions
+*in stl elem
+
+lower_bound(arr.begin)/
+pairs = eg start and end time
+pair <int,char> x; collection of two data types that my not be same type
+vector<pair<int,int> >A;
+A.pushback( make_pair(3,3))
+A[0].first;
+A[0].second;
+sort pair
+read about functions of pairs
+sort(pointer1,pointer2)
+f(a,b);
+all elements of set are distinct
+insert
+union intersections can be done
+
+insert
+find 
+erase
+in a set
+find ::
+
+
+learn hash
+learn binary search tree
+string a = "danish"
+set of string
+
+map
+make a map of string and integer map<string,int>
+                                        ***  --- 
+Map["danish"] = 1;
+Map[key]=value;
+    ***   ----
+
+    set map are binary:x
