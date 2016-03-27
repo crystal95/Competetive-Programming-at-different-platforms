@@ -1,0 +1,17 @@
+ref : http://zimmer.csufresno.edu/~larryc/proofs/proofs.pigeonhole.html
+
+IMPORTANT NOTE : IF TWO NUMBERS N1 AND N2 GIVE SAME REMAINDER WHEN DIVIDED BY M THE THEIW DIFFERENCE i.e. (N1-N2) is divisible by M;
+
+
+
+
+
+
+Theorem. Among any N positive integers, there exists 2 whose difference is divisible by N-1.
+
+Proof. Let a1, a2, ..., aN be the numbers. For each ai, let ri be the remainder that results from dividing ai by N - 1. (So ri = ai mod(N-1) and ri can take on only the values 0, 1, ..., N-2.) There are N-1 possible values for each ri, but there are N ri's. Thus, by the pigeon hole principle, there must be two of the ri's that are the same, rj = rk for some pair j and k But then, the corresponding ai's have the same remainder when divided by N-1, and so their difference aj - ak is evenly divisble by N-1.
+
+Example
+Theorem. For any N positive integers, the sum of some of these integers (perhaps one of the numbers itself) is divisible by N.
+
+Proof. Consider the N numbers b1 = (a1) mod(N), b2 =(a1 + a2) mod(N), b3 = (a1+a2+a3) mod(N), ..., bN = (a1 + ... + aN) mod(N). If one of these numbers is zero, then we are done. Otherwise, only the N-1 numbers 1, 2, ..., N-1 are represented in this list, and so two of them must be the same, bi = bj (say i < j). This would then imply that (ai+1 + ... + aj) mod(N) = 0, proving our claim. 
